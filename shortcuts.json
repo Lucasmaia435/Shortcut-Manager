@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Visual Studio Code",
+        "type":"command",
+        "command": "code",
+        "shortcut":"Shift+c"
+    },
+    {
+        "name":"Teste",
+        "type":"console",
+        "console":"If you pressed 'CTRL+L' the shortcut manager is working",
+        "shortcut":"Ctrl+L"
+    }
+]
