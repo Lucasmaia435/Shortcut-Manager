@@ -3,6 +3,31 @@
 ### Crie atalhos personalizados no seu computador
 
 ## Instalação
+
+### Caso já possua o node instalado no seu pc : 
+```bash
+...> git clone https://github.com/Lucasmaia435/Shortcut-Manager.git
+
+...> cd "Shortcut-Manager"
+
+...\Shortcut-Manager> npm install
+```
+### Caso não tenha o node : 
+Instale o Node a partir deste link : https://nodejs.org/.
+
+Após instalar o Node, verifique as suas versões. 
+```bash
+node -v
+npm -v
+```
+Output: 
+```bash
+v10.16.0
+6.9.0
+```
+
+Vá para o lugar que você quer instalar o programa pelo terminal
+
 ```bash
 ...> git clone https://github.com/Lucasmaia435/Shortcut-Manager.git
 
@@ -66,4 +91,10 @@ Todos os atalhos, tem que ter o seu nome, tipo, atalho e um último argumento qu
     "console": "Hello World!",
     "shortcut":"Ctrl+M"
 }
+```
+
+## Iniciar
+
+```bash
+    ...\Shortcut-Manager> npm start
 ```
