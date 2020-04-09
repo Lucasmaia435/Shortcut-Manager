@@ -5,6 +5,7 @@ const { globalShortcut } = require('electron');
 let exec_count = 0;
 let exec_files = [];
 let Shortcuts = [];
+
 module.exports = {
     getShortcuts() {
         var json = JSON.parse(fs.readFileSync('./shortcuts.json').toString());
